@@ -1,0 +1,122 @@
+/*ALERTS*/
+.alert-purple { border-color: #694D9F;background: #694D9F;color: #fff; }
+.alert-info-alt { border-color: #B4E1E4;background: #81c7e1;color: #fff; }
+.alert-danger-alt { border-color: #B63E5A;background: #E26868;color: #fff; }
+.alert-warning-alt { border-color: #F3F3EB;background: #E9CEAC;color: #fff; }
+.alert-success-alt { border-color: #19B99A;background: #20A286;color: #fff; }
+.glyphicon { margin-right:10px; }
+.alert a {color: gold;}
+
+/* HERE STARTS THE MAGIC */
+header {
+    text-align: center;
+    color: #fff;
+    background: #18bc9c;
+
+    position: fixed;
+    width:100%;
+    z-index: 1;
+    height: 88%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+header .container.text{
+    color: black !important;
+}
+
+.content-wrapper{
+    background-color: white;
+    top: 87%;
+    min-height: 12%;
+    position:absolute;
+    z-index: 2;
+    width: 100%;    
+}
+/* HERE ENDS THE MAGIC */
+header .container {
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+header img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+header .intro-text .name {
+    display: block;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+header .intro-text .skills {
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+section {
+    padding: 100px 0;    
+    width: 100%;
+}
+
+section h2 {
+    margin: 0;
+    font-size: 3em;
+}
+hr.star-light,
+hr.star-primary {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+}
+
+hr.star-light:after,
+hr.star-primary:after {
+    content: "\f005";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+}
+
+hr.star-light {
+    border-color: #fff;
+}
+
+hr.star-light:after {
+    color: #fff;
+    background-color: #18bc9c;
+}
+
+hr.star-primary {
+    border-color: #2c3e50;
+}
+
+hr.star-primary:after {
+    color: #2c3e50;
+    background-color: #fff;
+}
+
+section.primary h2{    
+    color: #2c3e50;
+    }
+    
+section.success{
+    background-color: #18bc9c;
+    color: #fff;
+    }
+
+/*logo*/
+#iconv{
+    font-size: 30px;
+    margin: 10px;
+}
